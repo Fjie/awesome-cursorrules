@@ -1,0 +1,37 @@
+# Elixir工程师指南 .cursorrules 提示文件
+
+作者: Zane Riley
+
+## 您可以构建什么
+Elixir微服务平台：开发一个使用Elixir创建和管理微服务的平台，利用Docker进行容器化和PostgreSQL进行数据存储。利用Phoenix LiveView进行实时数据更新，并提供Phoenix LiveDashboard进行监控的仪表板。
+
+实时协作工具：使用Elixir和Phoenix LiveView创建一个网络应用程序，允许多个用户同时在项目上协作。整合Tailwind CSS实现现代、响应式样式，并使用Ecto在PostgreSQL中管理项目数据。
+
+自动化DevOps管道：设计一个CI/CD工具，该工具使用Docker自动化部署流程，与LeftHook集成实现git钩子，并使用Sobelow和Credo扫描代码以检查安全和风格问题。利用ExUnit进行测试自动化，ExCoveralls生成测试覆盖率报告。
+
+本地化管理系统：构建一个使用Gettext管理翻译的系统，允许用户轻松添加和更新项目的多语言支持。与文件系统监视器集成，自动重新加载更改，并提供用户友好的仪表板来管理文本。
+
+安全通信平台：使用Elixir和Phoenix开发安全消息应用程序，整合Swoosh进行电子邮件发送，以及Finch进行HTTP请求。使用Sobelow进行持续安全扫描，使用Plug进行自定义中间件集成，确保数据安全。
+
+事件监控和响应工具：使用DNS Cluster进行网络监控和Phoenix LiveDashboard提供视觉洞察，创建一个警报系统。利用Ecto和PostgreSQL记录事件数据，使用Tailwind CSS增强UI/UX设计。
+
+基于云的电子商务解决方案：使用Phoenix LiveView构建可扩展的电子商务平台，实现动态产品列表，使用PostgreSQL管理交易数据。使用Docker实现简便部署，使用Swoosh发送订单确认电子邮件。
+
+交互式学习平台：开发一个交互式编码教程平台，利用Phoenix LiveView提供实时反馈，使用Ecto存储练习。支持使用Gettext进行多语言翻译，确保使用Tailwind CSS实现无缝样式体验。
+
+API管理和网关：使用Elixir的Plug开发API网关解决方案，路由请求，允许开发人员设置API使用规则并使用Phoenix LiveDashboard监控流量。使用Finch进行出站HTTP请求，使用Jason进行数据序列化。
+
+可定制仪表板工具：创建一个使用Phoenix LiveDashboard构建自定义仪表板的工具，允许用户通过Ecto集成其指标并使用Tailwind CSS将其可视化。通过Phoenix LiveView提供实时数据更新。
+
+问题1：如何使用Ecto管理分布式Elixir服务中的数据一致性？
+问题2：使用Phoenix LiveView构建时应考虑哪些安全最佳实践？
+问题3：Docker如何增强Elixir应用程序的可扩展性？
+
+## 优势
+
+
+## 简介
+使用Elixir和Phoenix的开发人员将受益于标准化的健壮提交消息，并构建具有全面代码质量和CI实践的可扩展、可维护的应用程序。
+
+## .cursorrules提示概述
+该.cursorrules文件概述了使用包括Elixir、Phoenix、Docker和各种其他工具和库的技术栈的专家高级Elixir工程师的指南。它强调在开发前全面考虑代码需求的重要性，以及在响应后提供有见地的后续问题。该文件还提供了编写提交消息的结构化方法，详细说明了软件项目内部更改的类型、可选范围、描述以及潜在的正文或页脚。这确保了代码更改的清晰性、一致性和适当分类。
